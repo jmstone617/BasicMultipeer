@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0C7CDE19132CCC0019B74B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CDD19132CCC0019B74B /* Foundation.framework */; };
+		CB0C7CE019132CCC0019B74B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CDF19132CCC0019B74B /* CoreGraphics.framework */; };
+		CB0C7CE219132CCC0019B74B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CE119132CCC0019B74B /* UIKit.framework */; };
+		CB0C7CE819132CCC0019B74B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CE619132CCC0019B74B /* InfoPlist.strings */; };
+		CB0C7CEA19132CCC0019B74B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CE919132CCC0019B74B /* main.m */; };
+		CB0C7CEE19132CCC0019B74B /* BMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CED19132CCC0019B74B /* BMPAppDelegate.m */; };
+		CB0C7CF119132CCC0019B74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CEF19132CCC0019B74B /* Main.storyboard */; };
+		CB0C7CF419132CCC0019B74B /* BMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7CF319132CCC0019B74B /* BMPViewController.m */; };
+		CB0C7CF619132CCC0019B74B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7CF519132CCC0019B74B /* Images.xcassets */; };
+		CB0C7CFD19132CCC0019B74B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CFC19132CCC0019B74B /* XCTest.framework */; };
+		CB0C7CFE19132CCC0019B74B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CDD19132CCC0019B74B /* Foundation.framework */; };
+		CB0C7CFF19132CCC0019B74B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0C7CE119132CCC0019B74B /* UIKit.framework */; };
+		CB0C7D0719132CCC0019B74B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0C7D0519132CCC0019B74B /* InfoPlist.strings */; };
+		CB0C7D0919132CCC0019B74B /* BasicMultipeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0C7D0819132CCC0019B74B /* BasicMultipeerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0C7D0019132CCC0019B74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0C7CD219132CCC0019B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0C7CD919132CCC0019B74B;
+			remoteInfo = BasicMultipeer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB0C7CDA19132CCC0019B74B /* BasicMultipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMultipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0C7CDD19132CCC0019B74B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB0C7CDF19132CCC0019B74B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB0C7CE119132CCC0019B74B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB0C7CE519132CCC0019B74B /* BasicMultipeer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicMultipeer-Info.plist"; sourceTree = "<group>"; };
+		CB0C7CE719132CCC0019B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB0C7CE919132CCC0019B74B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB0C7CEB19132CCC0019B74B /* BasicMultipeer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicMultipeer-Prefix.pch"; sourceTree = "<group>"; };
+		CB0C7CEC19132CCC0019B74B /* BMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMPAppDelegate.h; sourceTree = "<group>"; };
+		CB0C7CED19132CCC0019B74B /* BMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPAppDelegate.m; sourceTree = "<group>"; };
+		CB0C7CF019132CCC0019B74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB0C7CF219132CCC0019B74B /* BMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMPViewController.h; sourceTree = "<group>"; };
+		CB0C7CF319132CCC0019B74B /* BMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMPViewController.m; sourceTree = "<group>"; };
+		CB0C7CF519132CCC0019B74B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB0C7CFB19132CCC0019B74B /* BasicMultipeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMultipeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0C7CFC19132CCC0019B74B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB0C7D0419132CCC0019B74B /* BasicMultipeerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicMultipeerTests-Info.plist"; sourceTree = "<group>"; };
+		CB0C7D0619132CCC0019B74B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB0C7D0819132CCC0019B74B /* BasicMultipeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicMultipeerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0C7CD719132CCC0019B74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CE019132CCC0019B74B /* CoreGraphics.framework in Frameworks */,
+				CB0C7CE219132CCC0019B74B /* UIKit.framework in Frameworks */,
+				CB0C7CDE19132CCC0019B74B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C7CF819132CCC0019B74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CFD19132CCC0019B74B /* XCTest.framework in Frameworks */,
+				CB0C7CFF19132CCC0019B74B /* UIKit.framework in Frameworks */,
+				CB0C7CFE19132CCC0019B74B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0C7CD119132CCC0019B74B = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CE319132CCC0019B74B /* BasicMultipeer */,
+				CB0C7D0219132CCC0019B74B /* BasicMultipeerTests */,
+				CB0C7CDC19132CCC0019B74B /* Frameworks */,
+				CB0C7CDB19132CCC0019B74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0C7CDB19132CCC0019B74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CDA19132CCC0019B74B /* BasicMultipeer.app */,
+				CB0C7CFB19132CCC0019B74B /* BasicMultipeerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0C7CDC19132CCC0019B74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CDD19132CCC0019B74B /* Foundation.framework */,
+				CB0C7CDF19132CCC0019B74B /* CoreGraphics.framework */,
+				CB0C7CE119132CCC0019B74B /* UIKit.framework */,
+				CB0C7CFC19132CCC0019B74B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0C7CE319132CCC0019B74B /* BasicMultipeer */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CEC19132CCC0019B74B /* BMPAppDelegate.h */,
+				CB0C7CED19132CCC0019B74B /* BMPAppDelegate.m */,
+				CB0C7CEF19132CCC0019B74B /* Main.storyboard */,
+				CB0C7CF219132CCC0019B74B /* BMPViewController.h */,
+				CB0C7CF319132CCC0019B74B /* BMPViewController.m */,
+				CB0C7CF519132CCC0019B74B /* Images.xcassets */,
+				CB0C7CE419132CCC0019B74B /* Supporting Files */,
+			);
+			path = BasicMultipeer;
+			sourceTree = "<group>";
+		};
+		CB0C7CE419132CCC0019B74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7CE519132CCC0019B74B /* BasicMultipeer-Info.plist */,
+				CB0C7CE619132CCC0019B74B /* InfoPlist.strings */,
+				CB0C7CE919132CCC0019B74B /* main.m */,
+				CB0C7CEB19132CCC0019B74B /* BasicMultipeer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB0C7D0219132CCC0019B74B /* BasicMultipeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7D0819132CCC0019B74B /* BasicMultipeerTests.m */,
+				CB0C7D0319132CCC0019B74B /* Supporting Files */,
+			);
+			path = BasicMultipeerTests;
+			sourceTree = "<group>";
+		};
+		CB0C7D0319132CCC0019B74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C7D0419132CCC0019B74B /* BasicMultipeerTests-Info.plist */,
+				CB0C7D0519132CCC0019B74B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0C7CD919132CCC0019B74B /* BasicMultipeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0C7D0C19132CCC0019B74B /* Build configuration list for PBXNativeTarget "BasicMultipeer" */;
+			buildPhases = (
+				CB0C7CD619132CCC0019B74B /* Sources */,
+				CB0C7CD719132CCC0019B74B /* Frameworks */,
+				CB0C7CD819132CCC0019B74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicMultipeer;
+			productName = BasicMultipeer;
+			productReference = CB0C7CDA19132CCC0019B74B /* BasicMultipeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB0C7CFA19132CCC0019B74B /* BasicMultipeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0C7D0F19132CCC0019B74B /* Build configuration list for PBXNativeTarget "BasicMultipeerTests" */;
+			buildPhases = (
+				CB0C7CF719132CCC0019B74B /* Sources */,
+				CB0C7CF819132CCC0019B74B /* Frameworks */,
+				CB0C7CF919132CCC0019B74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0C7D0119132CCC0019B74B /* PBXTargetDependency */,
+			);
+			name = BasicMultipeerTests;
+			productName = BasicMultipeerTests;
+			productReference = CB0C7CFB19132CCC0019B74B /* BasicMultipeerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0C7CD219132CCC0019B74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BMP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jordan Stone";
+				TargetAttributes = {
+					CB0C7CFA19132CCC0019B74B = {
+						TestTargetID = CB0C7CD919132CCC0019B74B;
+					};
+				};
+			};
+			buildConfigurationList = CB0C7CD519132CCC0019B74B /* Build configuration list for PBXProject "BasicMultipeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0C7CD119132CCC0019B74B;
+			productRefGroup = CB0C7CDB19132CCC0019B74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0C7CD919132CCC0019B74B /* BasicMultipeer */,
+				CB0C7CFA19132CCC0019B74B /* BasicMultipeerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0C7CD819132CCC0019B74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CF619132CCC0019B74B /* Images.xcassets in Resources */,
+				CB0C7CE819132CCC0019B74B /* InfoPlist.strings in Resources */,
+				CB0C7CF119132CCC0019B74B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C7CF919132CCC0019B74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7D0719132CCC0019B74B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0C7CD619132CCC0019B74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7CEE19132CCC0019B74B /* BMPAppDelegate.m in Sources */,
+				CB0C7CF419132CCC0019B74B /* BMPViewController.m in Sources */,
+				CB0C7CEA19132CCC0019B74B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0C7CF719132CCC0019B74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0C7D0919132CCC0019B74B /* BasicMultipeerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB0C7D0119132CCC0019B74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0C7CD919132CCC0019B74B /* BasicMultipeer */;
+			targetProxy = CB0C7D0019132CCC0019B74B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB0C7CE619132CCC0019B74B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C7CE719132CCC0019B74B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB0C7CEF19132CCC0019B74B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C7CF019132CCC0019B74B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB0C7D0519132CCC0019B74B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0C7D0619132CCC0019B74B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0C7D0A19132CCC0019B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB0C7D0B19132CCC0019B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0C7D0D19132CCC0019B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicMultipeer/BasicMultipeer-Prefix.pch";
+				INFOPLIST_FILE = "BasicMultipeer/BasicMultipeer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB0C7D0E19132CCC0019B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicMultipeer/BasicMultipeer-Prefix.pch";
+				INFOPLIST_FILE = "BasicMultipeer/BasicMultipeer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB0C7D1019132CCC0019B74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicMultipeer.app/BasicMultipeer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicMultipeer/BasicMultipeer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BasicMultipeerTests/BasicMultipeerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB0C7D1119132CCC0019B74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BasicMultipeer.app/BasicMultipeer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicMultipeer/BasicMultipeer-Prefix.pch";
+				INFOPLIST_FILE = "BasicMultipeerTests/BasicMultipeerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0C7CD519132CCC0019B74B /* Build configuration list for PBXProject "BasicMultipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C7D0A19132CCC0019B74B /* Debug */,
+				CB0C7D0B19132CCC0019B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0C7D0C19132CCC0019B74B /* Build configuration list for PBXNativeTarget "BasicMultipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C7D0D19132CCC0019B74B /* Debug */,
+				CB0C7D0E19132CCC0019B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB0C7D0F19132CCC0019B74B /* Build configuration list for PBXNativeTarget "BasicMultipeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0C7D1019132CCC0019B74B /* Debug */,
+				CB0C7D1119132CCC0019B74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB0C7CD219132CCC0019B74B /* Project object */;
+}
